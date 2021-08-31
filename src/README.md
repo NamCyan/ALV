@@ -1,12 +1,12 @@
 requirement: python3, pip
 cd src
 
-1. set up library: 	pip install -r requirements.txt	
+1. Set up library: 	pip install -r requirements.txt	
 
-2: Download Omniglot dataset at: 
+2. Download Omniglot dataset at: 
 https://drive.google.com/file/d/1eHf3Dw3q9_OPOkFqR5mLfNpOc__9cise/view?usp=sharing
 
-3. run experiment
+3. Run experiment
 python3 --experiment [dataset] --approach [method] --drop_type Gauss --droprate [Giá trị init_alpha] ...
 
 - Detail about all arguments: arguments.py
