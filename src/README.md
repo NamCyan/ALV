@@ -3,7 +3,7 @@ Requirement: python3, pip
 
 1. Set up library: 	pip install -r requirements.txt	
 
-2. Download [Omniglot dataset](https://drive.google.com/file/d/1eHf3Dw3q9_OPOkFqR5mLfNpOc__9cise/view?usp=sharing)
+2. Download [Omniglot dataset](https://drive.google.com/file/d/19UaTcjGYj8YUBlj69mPK7zcVvFUR8bso/view)
 
 3. Run experiment:
 ```python
