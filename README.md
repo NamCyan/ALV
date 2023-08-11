@@ -2,6 +2,16 @@
 
 This repository contains the code for ALV. ALV is a method that can boost the performance of regularization-based methods in continual learning using novel auxiliary variables. The paper on ALV is published at PAKDD'22.
 
+## Table of content
+- [Our contributions](#our-contributions)
+- [Experimental results](#experimental-results)
+  - [Experiment setup](#experiment-setup)
+  - [Split MNIST and Permuted MNIST](#split-mnist-and-permuted-mnist)
+  - [Split CIFAR100 and Split CIFAR10100](#split-cifar100-and-split-cifar10100)
+  - [Split Omniglot](#split-omniglot)
+- [Citing ALV](#citing-alv)
+- [Contact us](#contact-us)
+
 # Our contributions
 1. This work introduces a novel method based on [Variational Dropout](https://arxiv.org/abs/1506.02557) that adds **auxiliary local variables** for each task to the model in continual learning scenarios.
 
