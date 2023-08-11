@@ -1,4 +1,4 @@
-## Sep up
+## Set up
 - Set up library: 	pip install -r requirements.txt	
 
 - Download [Omniglot dataset](https://drive.google.com/file/d/19UaTcjGYj8YUBlj69mPK7zcVvFUR8bso/view)
