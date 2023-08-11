@@ -9,7 +9,7 @@ This repository contains the code for ALV. ALV is a method that can boost the pe
   - [Split MNIST and Permuted MNIST](#split-mnist-and-permuted-mnist)
   - [Split CIFAR100 and Split CIFAR10100](#split-cifar100-and-split-cifar10100)
   - [Split Omniglot](#split-omniglot)
-- [Citing ALV](#citing-alv)
+- [Citation](#citation)
 - [Contact us](#contact-us)
 
 # Our contributions
@@ -54,7 +54,7 @@ EWC, VCL and UCL are three baselines and compare ALV with w/o Dropout (without D
 ## Split Omniglot
 ![omniglot](./asset/omniglot.png)
 
-# Citing ALV
+# Citation
 More details can be found in our [paper](https://link.springer.com/chapter/10.1007/978-3-031-05933-9_2).
 
 If you're using ALV in your research or applications, please cite using this BibTeX:
