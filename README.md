@@ -3,13 +3,37 @@
 This repository contains the code for ALV. ALV is a method that can boost the performance of regularization-based methods in continual learning using novel auxiliary variables. The paper on ALV is published at PAKDD'22.
 
 # Our contributions
-1. This work introduces a novel method which adds auxiliary local variables for each task to the model in continual learning scenarios.
+1. This work introduces a novel method based on [Variational Dropout](https://arxiv.org/abs/1506.02557) that adds **auxiliary local variables** for each task to the model in continual learning scenarios.
 
-2. ALV can be applied in both Bayesian and Deterministic NN architectures.
+2. ALV can be applied in both **Bayesian and Deterministic** NN architectures.
 
-3. We conducted various experiments to show that ALV can make standard methods approach the state-of-the-art results.
+3. We conducted various experiments to show that ALV can **make standard methods approach the state-of-the-art results**.
 
 # Experimental results
+## Experiment set up
+We employ experiments on 5 popular datasets in continual learning: Split MNIST, Permuted MNIST, Split CIFAR100, Split CIFAR10/100 and Split Omniglot.
+
+EWC, VCL and UCL are three baselines and compare ALV with w/o Dropout (without Dropout) and Dropout approach.
+
+## Split MNIST and Permuted MNIST
+
+*Split Mnist
+|  Method     | EWC         | VCL          | UCL          |
+|:------------|------------:|-------------:|-------------:|
+| w/o Dropout | 96.23       | 98.59        | 99.64        |
+| Dropout     | 97.65       | 98.42        | 99.61        |
+| ALV         | **99.79**   | **98.67**    | **99.73**    |
+
+*Permuted Mnist
+|  Method     | EWC         | VCL          | UCL          |
+|:------------|------------:|-------------:|-------------:|
+| w/o Dropout | 44.63       | 86.22        | 95.86        |
+| Dropout     | 91.97       | 86.05        | 95.94        |
+| ALV         | **92.22**   | **87.96**    | **96.37**    |
+
+## Split CIFAR10 and Split CIFAR10/100
+
+## Split Omniglot
 
 
 # Citing ALV
@@ -26,3 +50,6 @@ If you're using ALV in your research or applications, please cite using this Bib
   organization={Springer}
 }
 ```
+
+# Contact us
+If you have any questions, comments or suggestions, please do not hesitate to contact us via nam.lh173264@gmail.com
