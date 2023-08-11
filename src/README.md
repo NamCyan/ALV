@@ -7,9 +7,9 @@
 ```python
 python3 --experiment [dataset] --approach [method] --drop_type Gauss --droprate [init_alpha] ...
 ```
-Detail about all arguments: arguments.py
+Detail about all arguments: [arguments.py](https://github.com/NamCyan/ALV/blob/main/src/arguments.py)
 
-Run for 5 different seeds: grid_run.py
+Run for 5 different seeds: [grid_run.py](https://github.com/NamCyan/ALV/blob/main/src/grid_run.py)
 
 ### Examples:
 
