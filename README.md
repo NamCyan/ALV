@@ -42,7 +42,7 @@ EWC, VCL and UCL are three baselines and compare ALV with w/o Dropout (without D
 ![CIFAR10_100](./asset/splitCifar10_100.png)
 
 ## Split Omniglot
-
+![omniglot](./asset/omniglot.png)
 
 # Citing ALV
 More details can be found in our [paper](https://link.springer.com/chapter/10.1007/978-3-031-05933-9_2).
