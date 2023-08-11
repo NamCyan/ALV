@@ -36,10 +36,10 @@ EWC, VCL and UCL are three baselines and compare ALV with w/o Dropout (without D
 ## Split CIFAR100 and Split CIFAR10/100
 
 * Split CIFAR100
-![CIFAR100](./asset/SplitCifar100.png)
+![CIFAR100](./asset/splitCifar100.png)
 
 * Split CIFAR10/100
-![CIFAR10_100](./asset/SplitCifar10_100.png)
+![CIFAR10_100](./asset/splitCifar10_100.png)
 
 ## Split Omniglot
 
