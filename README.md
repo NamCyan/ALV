@@ -10,14 +10,14 @@ This repository contains the code for ALV. ALV is a method that can boost the pe
 3. We conducted various experiments to show that ALV can **make standard methods approach the state-of-the-art results**.
 
 # Experimental results
-## Experiment set up
-We employ experiments on 5 popular datasets in continual learning: Split MNIST, Permuted MNIST, Split CIFAR100, Split CIFAR10/100 and Split Omniglot.
+## Experiment setup
+We employ experiments on 5 popular datasets in continual learning: Split MNIST, Permuted MNIST, Split CIFAR100, Split CIFAR10/100, and Split Omniglot.
 
-EWC, VCL and UCL are three baselines and compare ALV with w/o Dropout (without Dropout) and Dropout approach.
+EWC, VCL and UCL are three baselines and compare ALV with w/o Dropout (without Dropout) and Dropout approaches.
 
 ## Split MNIST and Permuted MNIST
 
-* Split Mnist
+* Split MNIST
   
 |  Method     | EWC         | VCL          | UCL          |
 |:------------|------------:|-------------:|-------------:|
@@ -25,7 +25,7 @@ EWC, VCL and UCL are three baselines and compare ALV with w/o Dropout (without D
 | Dropout     | 97.65       | 98.42        | 99.61        |
 | ALV         | **99.79**   | **98.67**    | **99.73**    |
 
-* Permuted Mnist
+* Permuted MNIST
 
 |  Method     | EWC         | VCL          | UCL          |
 |:------------|------------:|-------------:|-------------:|
@@ -33,7 +33,15 @@ EWC, VCL and UCL are three baselines and compare ALV with w/o Dropout (without D
 | Dropout     | 91.97       | 86.05        | 95.94        |
 | ALV         | **92.22**   | **87.96**    | **96.37**    |
 
-## Split CIFAR10 and Split CIFAR10/100
+## Split CIFAR100 and Split CIFAR10/100
+
+* Split CIFAR100
+
+<object data="http://yoursite.com/the.pdf" type="application/pdf">
+    <embed src="./asset/splitCifar100_new.pdf">
+        <p>Experimental results on Split CIFAR-100</p>
+    </embed>
+</object>
 
 ## Split Omniglot
 
