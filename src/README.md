@@ -1,11 +1,9 @@
-Requirement: python3, pip
+## Sep up
+- Set up library: 	pip install -r requirements.txt	
 
+- Download [Omniglot dataset](https://drive.google.com/file/d/19UaTcjGYj8YUBlj69mPK7zcVvFUR8bso/view)
 
-1. Set up library: 	pip install -r requirements.txt	
-
-2. Download [Omniglot dataset](https://drive.google.com/file/d/19UaTcjGYj8YUBlj69mPK7zcVvFUR8bso/view)
-
-3. Run experiment:
+## Training ALV
 ```python
 python3 --experiment [dataset] --approach [method] --drop_type Gauss --droprate [init_alpha] ...
 ```
@@ -13,7 +11,7 @@ Detail about all arguments: arguments.py
 
 Run for 5 different seeds: grid_run.py
 
-Eg:
+### Examples:
 
 * Experiment with EWC + ALV for Split Mnist: 
 ```python
