@@ -18,13 +18,15 @@ EWC, VCL and UCL are three baselines and compare ALV with w/o Dropout (without D
 ## Split MNIST and Permuted MNIST
 
 * Split Mnist
+  
 |  Method     | EWC         | VCL          | UCL          |
 |:------------|------------:|-------------:|-------------:|
 | w/o Dropout | 96.23       | 98.59        | 99.64        |
 | Dropout     | 97.65       | 98.42        | 99.61        |
 | ALV         | **99.79**   | **98.67**    | **99.73**    |
 
-*Permuted Mnist*
+* Permuted Mnist
+
 |  Method     | EWC         | VCL          | UCL          |
 |:------------|------------:|-------------:|-------------:|
 | w/o Dropout | 44.63       | 86.22        | 95.86        |
